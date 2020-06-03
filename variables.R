@@ -73,3 +73,11 @@ str4=toupper(str1)
 print (str4)
 str5=tolower(str1)
 print (str5)
+str6=substr(str3,5,16)
+print(str6)
+
+a = 5
+print(a)
+h=1:20
+print(h)
+199 %in% h
