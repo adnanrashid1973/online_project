@@ -53,3 +53,23 @@ repeat{
   }
 }
 
+var1 = 7
+while(var1 < 21){
+  print(var1)
+  var1=var1+ 2
+}
+
+for (x in 1:10){
+  print(x)
+}
+str1="hello baby'what a seen'"
+str2="hello baba"
+print(str1)
+print(str2)
+str3=paste(str1,str2)
+print(str3)
+nchar(str3)
+str4=toupper(str1)
+print (str4)
+str5=tolower(str1)
+print (str5)
