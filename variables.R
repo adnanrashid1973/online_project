@@ -25,7 +25,7 @@ a=c(TRUE,FALSE,FALSE,TRUE)
 b=c(FALSE,TRUE,TRUE,TRUE)
 print(a & b)
 value1=c(23)
-value2=c(90)
+value2=c(20)
 if ((value1+value2)>200){
   print("beautiful")
 } else if ((value1+value2)>110){
@@ -33,5 +33,15 @@ if ((value1+value2)>200){
 }else if ((value1+value2)>140){
   print("worse")
 }
+else 
+  print("bye bye")
+switch(7,
+       "1"="monday",
+       "2"="tuesday",
+       "3"="wednesday",
+       "4"="thursday",
+       "5"="friday",
+       "6"="saturday",
+       "7"="sunday")
 
 
