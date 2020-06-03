@@ -13,4 +13,14 @@ data.frame(airmile)
 # operators
 print(67-67.98)
 print(67/6)
-print(67%%6)
+print(67%/%6)
+a=3
+b=5
+print(a<b)
+print(a>b)
+print(a==b)
+print(a -> 5)
+# logical operators
+a=c(TRUE,FALSE,FALSE,TRUE)
+b=c(FALSE,TRUE,TRUE,TRUE)
+print(a & b)
