@@ -24,3 +24,14 @@ print(a -> 5)
 a=c(TRUE,FALSE,FALSE,TRUE)
 b=c(FALSE,TRUE,TRUE,TRUE)
 print(a & b)
+value1=c(23)
+value2=c(90)
+if ((value1+value2)>200){
+  print("beautiful")
+} else if ((value1+value2)>110){
+  print("bad")
+}else if ((value1+value2)>140){
+  print("worse")
+}
+
+
