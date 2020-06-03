@@ -35,13 +35,21 @@ if ((value1+value2)>200){
 }
 else 
   print("bye bye")
-switch(7,
+switch(9,
        "1"="monday",
        "2"="tuesday",
        "3"="wednesday",
        "4"="thursday",
        "5"="friday",
        "6"="saturday",
-       "7"="sunday")
-
+       "7"="sunday",
+       print("invalid input"))
+var1 = 5
+repeat{
+  print(var1)
+  var1=var1+ 2
+  if (var1 > 21){
+    break
+  }
+}
 
