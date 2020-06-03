@@ -1,1 +1,2 @@
-mtr = matrix(c(5:29),5,5)
+
+arr= array(c(1:9),dim=c(3,3,4,2))
