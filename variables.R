@@ -9,3 +9,8 @@ vtr11=c(34,89,56,35,90)
 data.frame(vtr9,vtr10,vtr11)
 mtr=matrix(c(1:20),5,5)
 arr=array(c(1:9),dim=c(3,3,4,2))
+data.frame(airmile)
+# operators
+print(67-67.98)
+print(67/6)
+print(67%%6)
